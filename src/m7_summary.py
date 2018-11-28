@@ -50,6 +50,7 @@ joey = rg.SimpleTurtle()
 joey.pen = rg.Pen('blue', 5)
 joey.speed = 5
 
+joey.left(90)
 joey.forward(200)
 joey.pen_up()
 joey.go_to(rg.Point(100,-40))
